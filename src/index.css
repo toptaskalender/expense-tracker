@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /* 
 main-background  : #fcfcfc
 card-backgorund  : #f5f5f5 
 main-helper      : #4b4b4b
-secondary        : #146d14 */
+secondary        : #146d14 
+tertiart          */
 
 * {
   box-sizing: border-box;
@@ -17,9 +19,8 @@ html {
 body {
   min-height: calc(100vh - 2rem);
   margin: 0;
-  background-color: #fcfcfc;
-  background-image: url('./assets/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: center/cover no-repeat
+      url('./assets/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg'),
+    #fcfcfc;
+  /* background-position: 0rem 5rem; */
 }

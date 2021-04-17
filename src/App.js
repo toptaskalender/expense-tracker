@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
+import Layout from './hoc/Layout/Layout';
 
 const INITIAL_EXPENSES = [
   {
@@ -30,13 +31,14 @@ function App() {
 
   const addExpenseDataHandler = expense => {
     setExpenses(prevState => [expense, ...prevState]);
+    console.log(expenses);
   };
 
   return (
-    <div>
+    <Layout>
       <NewExpense onAddExpenseData={addExpenseDataHandler} />
       <Expenses expenses={expenses} />
-    </div>
+    </Layout>
   );
 }
 

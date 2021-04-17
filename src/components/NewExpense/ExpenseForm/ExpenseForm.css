@@ -17,10 +17,10 @@
   outline: none;
   border: none;
   border-bottom: 2px solid #000;
-  transition: border-bottom 300ms;
   background-color: #f5f5f5;
   width: 20rem;
   max-width: 100%;
+  transition: border-bottom 300ms;
 }
 
 .new-expense__control input:focus {

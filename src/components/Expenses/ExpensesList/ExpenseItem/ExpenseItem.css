@@ -26,13 +26,13 @@
 }
 
 .expense-item__price {
+  padding: 0.5rem;
+  margin-right: 1rem;
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  background-color: #40005d;
-  border: 1px solid white;
-  padding: 0.5rem;
-  border-radius: 12px;
+  background-image: linear-gradient(to top left, #338f6c, #68e15d);
+  transform: skew(-15deg);
 }
 
 @media (min-width: 580px) {
